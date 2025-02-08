@@ -10,3 +10,5 @@ transformers
 deepface
 streamlit
 requests
+speechrecognition
+pyaudio
