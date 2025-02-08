@@ -1,0 +1,12 @@
+flask
+flask-cors
+torch
+torchvision
+opencv-python
+numpy
+pandas
+librosa
+transformers
+deepface
+streamlit
+requests
