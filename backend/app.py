@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import cv2
 import speech_recognition as sr
+import soundfile as sf
 from deepface import DeepFace
 
 app = Flask(__name__)
