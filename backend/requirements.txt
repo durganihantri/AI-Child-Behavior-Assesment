@@ -11,4 +11,5 @@ deepface
 streamlit
 requests
 speechrecognition
-pyaudio
+ffmpeg
+soundfile
