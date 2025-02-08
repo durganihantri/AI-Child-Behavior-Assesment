@@ -3,7 +3,7 @@ name: Deploy Flask App
 on:
   push:
     branches:
-      - main  # Change this if your default branch is different
+      - main  # Change this if your branch name is different
 
 jobs:
   deploy:
@@ -26,4 +26,4 @@ jobs:
     - name: Run Flask App
       run: |
         cd backend
-        python app.py
+        nohup python app.py &
