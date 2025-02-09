@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Durganihantri:$HF_TOKEN@huggingface.co/spaces/Durganihantri/AI-Child-Behavior-Assessment
+        run: git push --force https://Durganihantri:$HF_TOKEN@huggingface.co/spaces/Durganihantri/AI-Child-Behavior-Assessment
