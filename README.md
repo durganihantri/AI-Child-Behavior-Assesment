@@ -1,34 +1,84 @@
-# AI-Child-Behavior-Assessment
+---
+title: AI Child Behavior Assessment
+emoji: 🧒
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+app_file: app.py
+pinned: false
+sdk_version: 1.42.0
+---
 
-This project is a web-based AI tool designed to analyze children's facial expressions and language development for early mental health assessment.
+AI Child Behavior Assessment
 
-## Features
-- AI-powered **Facial Emotion Detection** using DeepFace
-- **Speech-to-Text Analysis** for child language development
-- Flask API for backend processing
-- Streamlit-based web interface
+Multimodal AI-powered tool for analyzing child emotions and speech patterns
 
-## Setup Instructions
-### 1. Install Required Libraries
-```bash
-pip install flask streamlit tensorflow torch torchvision opencv-python numpy pandas speechrecognition deepface transformers
-```
+🚀 Live Demo: Hugging Face Spaces
 
-### 2. Run the Backend (Flask API)
-```bash
-cd backend
-python app.py
-```
+📌 Overview
 
-### 3. Run the Frontend (Streamlit App)
-```bash
-cd frontend
-streamlit run app_ui.py
-```
+The AI Child Behavior Assessment app is designed to analyze children’s emotional and speech patterns using multimodal AI models. It integrates:
+	•	Facial Emotion Recognition (DeepFace) 🧑‍🎨
+	•	Speech Analysis & Transcription (Wav2Vec2) 🎙️
+	•	Multimodal Analysis (Video + Audio combined) 🎥 + 🔊
 
-## Deployment Guide
-- Backend can be deployed on **Hugging Face Spaces**.
-- Frontend can be hosted on **Streamlit Cloud** or **Netlify**.
+This tool helps in early mental health screening and behavioral assessments for research, caregivers, and psychologists.
 
-## License
-MIT License
+✨ Features
+
+✅ 1. Video-Based Emotion Analysis
+	•	Uses DeepFace AI to detect facial expressions and emotions.
+	•	Processes video frames to determine dominant emotions.
+	•	Generates a visual summary of detected emotions.
+
+✅ 2. Audio-Based Speech & Tone Analysis
+	•	Uses Wav2Vec2 to transcribe spoken words.
+	•	Applies speech emotion recognition to assess tone and sentiment.
+	•	Includes noise reduction for clearer transcriptions.
+
+✅ 3. Multimodal Analysis (Video + Audio Combined)
+	•	Extracts both visual and speech cues to detect behavior patterns.
+	•	Compares facial emotions with speech tone to identify inconsistencies.
+	•	Provides comprehensive insights into child behavior.
+
+✅ 4. Data Visualization
+	•	Displays emotion distribution over time using bar charts 📊.
+	•	Generates speech vs. video emotion comparison charts 🏆.
+
+🔧 How to Use
+
+1️⃣ Select an Analysis Mode:
+	•	Upload a video file for emotion recognition.
+	•	Upload an audio file for speech analysis.
+	•	Upload a video + audio file for multimodal analysis.
+
+2️⃣ Click “Analyze” to process the uploaded file.
+3️⃣ View Results:
+	•	Detected emotions, speech transcription, and analysis insights will be displayed.
+
+📂 Supported File Formats
+
+Analysis Type	Supported Formats
+Video 🎥	MP4, AVI, MOV
+Audio 🎙️	WAV, MP3
+Multimodal (Video + Audio)	MP4, MOV
+
+🔍 Future Improvements
+
+🚀 Planned Enhancements:
+✅ Real-time emotion tracking for live video
+✅ AI-driven predictive analysis for behavioral trends
+✅ Integration with clinical psychology datasets for validation
+✅ More advanced multimodal deep learning models
+
+📜 Citation & Acknowledgment
+
+If you use this tool in research or projects, please cite:
+Durganihantri Low – AI Child Behavior Assessment (2025)
+🌐 Hugging Face Spaces
+
+👨‍💻 Contact & Contributions
+
+Have suggestions or want to contribute? Contact me:
+📧 Email: ask@durganihantri.com
+🔗 LinkedIn: http://linkedin.com/in/durganihantri
